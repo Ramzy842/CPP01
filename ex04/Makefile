@@ -42,7 +42,7 @@ clean:
 
 # Fclean target to remove executable files, .replace files and finally perform clean
 fclean: clean
-	rm -f $(NAME) ./test_files/*.replace
+	rm -f $(NAME) *.replace
 
 # Re target to rebuild the project from scratch
 re: fclean all

@@ -17,7 +17,7 @@ CPP = c++
 CFLAGS = -Werror -Wall -Wextra -std=c++98
 
 # Source files
-SRC = main.cpp Zombie.cpp newZombie.cpp randomChump.cpp zombieHorde.cpp
+SRC = main.cpp Zombie.cpp randomChump.cpp zombieHorde.cpp
 
 # Object files generated from source files
 OBJ = $(SRC:.cpp=.o)

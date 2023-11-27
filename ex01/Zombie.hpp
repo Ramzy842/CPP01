@@ -20,13 +20,13 @@ class Zombie
 	private:
 		std::string name;
 	public:
-		Zombie() {}
-		Zombie(std::string name);
+		Zombie();
 		~Zombie();
+		void setName(std::string name);
+		std::string getName();
 		void announce(void);
 };
 
-Zombie *newZombie(std::string name);
 void randomChump(std::string name);
 Zombie	*zombieHorde(int N, std::string name);
 
