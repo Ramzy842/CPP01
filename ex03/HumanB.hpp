@@ -6,7 +6,7 @@
 /*   By: rchahban <rchahban@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 15:47:09 by rchahban          #+#    #+#             */
-/*   Updated: 2023/11/18 21:56:29 by rchahban         ###   ########.fr       */
+/*   Updated: 2023/11/28 09:41:00 by rchahban         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ class HumanB {
 	    Weapon* weapon;
 	
 	public:
-	    HumanB(std::string humanName) : name(humanName), weapon(nullptr) {}
+	    HumanB(std::string humanName) : name(humanName), weapon(NULL) {}
 	    void setWeapon(Weapon& newWeapon);
 	    void attack();
 };

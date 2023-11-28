@@ -6,7 +6,7 @@
 /*   By: rchahban <rchahban@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/19 00:13:32 by rchahban          #+#    #+#             */
-/*   Updated: 2023/11/22 15:54:10 by rchahban         ###   ########.fr       */
+/*   Updated: 2023/11/28 09:41:15 by rchahban         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ void Harl::error( void )
 
 void Harl::complain( std::string level )
 {
-	void (Harl::*fnPointer)() = nullptr;
+	void (Harl::*fnPointer)() = NULL;
 	std::string levels[4] = {"DEBUG", "INFO", "WARNING", "ERROR"};
 	int index;
 	for (index = 0; index < 4; index++)
