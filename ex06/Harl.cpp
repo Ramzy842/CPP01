@@ -6,7 +6,7 @@
 /*   By: rchahban <rchahban@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/19 00:13:32 by rchahban          #+#    #+#             */
-/*   Updated: 2023/11/28 09:41:15 by rchahban         ###   ########.fr       */
+/*   Updated: 2023/11/29 23:24:44 by rchahban         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ void Harl::complain( std::string level )
 			(this->*fnPointer)();
 			break;
 		default:
-			std::cout << "Error: " << level << " level does not exist!" << std::endl;
+			std::cout << "[ Probably complaining about insignificant problems ]" << std::endl;
 			return ;
 	}
 }

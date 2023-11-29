@@ -6,7 +6,7 @@
 /*   By: rchahban <rchahban@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/19 00:13:35 by rchahban          #+#    #+#             */
-/*   Updated: 2023/11/28 09:52:15 by rchahban         ###   ########.fr       */
+/*   Updated: 2023/11/29 23:22:29 by rchahban         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int main (int argc, char **argv)
 	Harl Harl;
 	if (argc == 1)
 	{
-		Harl.complain("DEBUG");
+		Harl.complain("DEBU");
 		Harl.complain("INFO");
 		Harl.complain("WARNING");
 		Harl.complain("ERROR");
